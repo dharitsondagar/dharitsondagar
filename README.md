@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @dharitsondagar
 - 👀 I’m interested in restful web apis and backend coding
 - 🌱 I’m currently learning React and angular
-- 💞️ I’m looking to collaborate on .net and beginner projects for react
+- 💞️ I’m looking to collaborate on .net core and beginner projects for react
 - 📫 How to reach me via email @ dharit.sondagar@gmail.com OR dharit.sondagar@live.in
 
 <!---
