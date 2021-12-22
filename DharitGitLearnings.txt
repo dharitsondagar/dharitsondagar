@@ -1,0 +1,18 @@
+git switch -c learnGit   ---Creates new branch named learnGit locally, this also preserves the changes made in current local branch i.e. develop
+git add . --- add all changes to local learnGit new branch
+git commit -m "learning git new branch"  --- commit all changes made to local learnGit 
+git status --- check the status
+-----below step is to get latest from master i.e. develop in our case
+git checkout master -- switch back to master branch. doing this will make your current changes go in-visible
+git pull origin master -- get latest changes from the master branch
+git checkout learnGit -- switch back to learnGit branch branch
+git merge master --- merge master branch which has all latest changes to the learnGit branch
+------now do build, test, lint etc etc to make sure your local code is without errors
+git push -u origin learnGit  --- push this new local branch i.e. learnGit to the remote repo.. learnGit is name on remote repo here
+-----when you are done with your work in learn git and all your changes have been working fine, create a pull request from learnGit to develop branch (this needs 2 approvers)
+-----once the pull request has been approved, the code is merged into develp and builds are working as intented and you are ready to conclude your feature. change to develop branch again and delete the feature branch
+git checkout master
+git pull origin master
+git -d leanrGit
+git push -d origin learnGit
+
