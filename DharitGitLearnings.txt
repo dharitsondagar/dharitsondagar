@@ -16,3 +16,5 @@ git pull origin master
 git -d leanrGit
 git push -d origin learnGit
 
+---setting upstream if remote name is different and remote already exists
+ git branch --set-upstream-to origin/feature/newFolder/DharitS/RemoteRepoName LocalRepoName
